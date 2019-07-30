@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14492.1" systemVersion="18G84" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="Entity" representedClassName="Entity" syncable="YES" codeGenerationType="class"/>
-    <entity name="Text" representedClassName="Text" syncable="YES" codeGenerationType="class"/>
+    <entity name="Tournament" representedClassName="Tournament" syncable="YES" codeGenerationType="class">
+        <attribute name="drawType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="endDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="filename" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="startDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
     <elements>
-        <element name="Text" positionX="-63" positionY="-18" width="128" height="45"/>
-        <element name="Entity" positionX="-54" positionY="-9" width="128" height="45"/>
+        <element name="Tournament" positionX="-63" positionY="-18" width="128" height="120"/>
     </elements>
 </model>
