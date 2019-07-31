@@ -10,7 +10,11 @@
         <attribute name="seed" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
         <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
-    <entity name="Round" representedClassName="Round" syncable="YES" codeGenerationType="class"/>
+    <entity name="Round" representedClassName="Round" syncable="YES" codeGenerationType="class">
+        <attribute name="drawType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="spotPrize" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="startTime" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
     <entity name="Tournament" representedClassName="Tournament" syncable="YES" codeGenerationType="class">
         <attribute name="drawType" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="endDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
@@ -22,7 +26,7 @@
         <element name="Tournament" positionX="-63" positionY="-18" width="128" height="120"/>
         <element name="Player" positionX="-63" positionY="18" width="128" height="135"/>
         <element name="Grade" positionX="-54" positionY="27" width="128" height="45"/>
-        <element name="Round" positionX="-36" positionY="36" width="128" height="45"/>
+        <element name="Round" positionX="-36" positionY="36" width="128" height="90"/>
         <element name="Game" positionX="-18" positionY="45" width="128" height="45"/>
     </elements>
 </model>
