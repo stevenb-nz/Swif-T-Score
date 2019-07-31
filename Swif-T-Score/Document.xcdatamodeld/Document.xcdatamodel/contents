@@ -2,7 +2,14 @@
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14492.1" systemVersion="18G84" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="Game" representedClassName="Game" syncable="YES" codeGenerationType="class"/>
     <entity name="Grade" representedClassName="Grade" syncable="YES" codeGenerationType="class"/>
-    <entity name="Player" representedClassName="Player" syncable="YES" codeGenerationType="class"/>
+    <entity name="Player" representedClassName="Player" syncable="YES" codeGenerationType="class">
+        <attribute name="club" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nickname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rating" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="seed" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
     <entity name="Round" representedClassName="Round" syncable="YES" codeGenerationType="class"/>
     <entity name="Tournament" representedClassName="Tournament" syncable="YES" codeGenerationType="class">
         <attribute name="drawType" optional="YES" attributeType="String" syncable="YES"/>
@@ -13,7 +20,7 @@
     </entity>
     <elements>
         <element name="Tournament" positionX="-63" positionY="-18" width="128" height="120"/>
-        <element name="Player" positionX="-63" positionY="18" width="128" height="45"/>
+        <element name="Player" positionX="-63" positionY="18" width="128" height="135"/>
         <element name="Grade" positionX="-54" positionY="27" width="128" height="45"/>
         <element name="Round" positionX="-36" positionY="36" width="128" height="45"/>
         <element name="Game" positionX="-18" positionY="45" width="128" height="45"/>
