@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Swif-T-Score.xcodeproj">
+      location = "self:">
    </FileRef>
 </Workspace>

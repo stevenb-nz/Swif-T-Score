@@ -7,67 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		80A8645622F056DF00ED92D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A8645522F056DF00ED92D1 /* AppDelegate.swift */; };
-		80A8645822F056DF00ED92D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A8645722F056DF00ED92D1 /* ViewController.swift */; };
-		80A8645A22F056DF00ED92D1 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A8645922F056DF00ED92D1 /* Document.swift */; };
-		80A8645D22F056DF00ED92D1 /* Document.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 80A8645B22F056DF00ED92D1 /* Document.xcdatamodeld */; };
-		80A8645F22F056E000ED92D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80A8645E22F056E000ED92D1 /* Assets.xcassets */; };
-		80A8646222F056E000ED92D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80A8646022F056E000ED92D1 /* Main.storyboard */; };
-		80A8646E22F056E000ED92D1 /* Swif_T_ScoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A8646D22F056E000ED92D1 /* Swif_T_ScoreTests.swift */; };
-		80A8647922F056E000ED92D1 /* Swif_T_ScoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A8647822F056E000ED92D1 /* Swif_T_ScoreUITests.swift */; };
+		800DA1DB2632572000D60E85 /* Swif_T_ScoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800DA1DA2632572000D60E85 /* Swif_T_ScoreApp.swift */; };
+		800DA1DD2632572000D60E85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800DA1DC2632572000D60E85 /* ContentView.swift */; };
+		800DA1DF2632572100D60E85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 800DA1DE2632572100D60E85 /* Assets.xcassets */; };
+		800DA1E22632572200D60E85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 800DA1E12632572200D60E85 /* Preview Assets.xcassets */; };
+		800DA1E42632572200D60E85 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800DA1E32632572200D60E85 /* Persistence.swift */; };
+		800DA1E72632572200D60E85 /* Swif_T_Score.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 800DA1E52632572200D60E85 /* Swif_T_Score.xcdatamodeld */; };
+		800DA1F32632572200D60E85 /* Swif_T_ScoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800DA1F22632572200D60E85 /* Swif_T_ScoreTests.swift */; };
+		800DA1FE2632572200D60E85 /* Swif_T_ScoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800DA1FD2632572200D60E85 /* Swif_T_ScoreUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		80A8646A22F056E000ED92D1 /* PBXContainerItemProxy */ = {
+		800DA1EF2632572200D60E85 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 80A8644A22F056DF00ED92D1 /* Project object */;
+			containerPortal = 800DA1CF2632572000D60E85 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 80A8645122F056DF00ED92D1;
+			remoteGlobalIDString = 800DA1D62632572000D60E85;
 			remoteInfo = "Swif-T-Score";
 		};
-		80A8647522F056E000ED92D1 /* PBXContainerItemProxy */ = {
+		800DA1FA2632572200D60E85 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 80A8644A22F056DF00ED92D1 /* Project object */;
+			containerPortal = 800DA1CF2632572000D60E85 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 80A8645122F056DF00ED92D1;
+			remoteGlobalIDString = 800DA1D62632572000D60E85;
 			remoteInfo = "Swif-T-Score";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		80A8645222F056DF00ED92D1 /* Swif-T-Score.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swif-T-Score.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		80A8645522F056DF00ED92D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		80A8645722F056DF00ED92D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		80A8645922F056DF00ED92D1 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
-		80A8645C22F056DF00ED92D1 /* Document.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Document.xcdatamodel; sourceTree = "<group>"; };
-		80A8645E22F056E000ED92D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		80A8646122F056E000ED92D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		80A8646322F056E000ED92D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80A8646422F056E000ED92D1 /* Swif_T_Score.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Swif_T_Score.entitlements; sourceTree = "<group>"; };
-		80A8646922F056E000ED92D1 /* Swif-T-ScoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swif-T-ScoreTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		80A8646D22F056E000ED92D1 /* Swif_T_ScoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swif_T_ScoreTests.swift; sourceTree = "<group>"; };
-		80A8646F22F056E000ED92D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80A8647422F056E000ED92D1 /* Swif-T-ScoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swif-T-ScoreUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		80A8647822F056E000ED92D1 /* Swif_T_ScoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swif_T_ScoreUITests.swift; sourceTree = "<group>"; };
-		80A8647A22F056E000ED92D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		800DA1D72632572000D60E85 /* Swif-T-Score.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swif-T-Score.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		800DA1DA2632572000D60E85 /* Swif_T_ScoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swif_T_ScoreApp.swift; sourceTree = "<group>"; };
+		800DA1DC2632572000D60E85 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		800DA1DE2632572100D60E85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		800DA1E12632572200D60E85 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		800DA1E32632572200D60E85 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		800DA1E62632572200D60E85 /* Swif_T_Score.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Swif_T_Score.xcdatamodel; sourceTree = "<group>"; };
+		800DA1E82632572200D60E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		800DA1E92632572200D60E85 /* Swif_T_Score.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Swif_T_Score.entitlements; sourceTree = "<group>"; };
+		800DA1EE2632572200D60E85 /* Swif-T-ScoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swif-T-ScoreTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		800DA1F22632572200D60E85 /* Swif_T_ScoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swif_T_ScoreTests.swift; sourceTree = "<group>"; };
+		800DA1F42632572200D60E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		800DA1F92632572200D60E85 /* Swif-T-ScoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swif-T-ScoreUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		800DA1FD2632572200D60E85 /* Swif_T_ScoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swif_T_ScoreUITests.swift; sourceTree = "<group>"; };
+		800DA1FF2632572200D60E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		80A8644F22F056DF00ED92D1 /* Frameworks */ = {
+		800DA1D42632572000D60E85 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80A8646622F056E000ED92D1 /* Frameworks */ = {
+		800DA1EB2632572200D60E85 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80A8647122F056E000ED92D1 /* Frameworks */ = {
+		800DA1F62632572200D60E85 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -77,55 +77,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		80A8644922F056DF00ED92D1 = {
+		800DA1CE2632572000D60E85 = {
 			isa = PBXGroup;
 			children = (
-				80A8645422F056DF00ED92D1 /* Swif-T-Score */,
-				80A8646C22F056E000ED92D1 /* Swif-T-ScoreTests */,
-				80A8647722F056E000ED92D1 /* Swif-T-ScoreUITests */,
-				80A8645322F056DF00ED92D1 /* Products */,
+				800DA1D92632572000D60E85 /* Swif-T-Score */,
+				800DA1F12632572200D60E85 /* Swif-T-ScoreTests */,
+				800DA1FC2632572200D60E85 /* Swif-T-ScoreUITests */,
+				800DA1D82632572000D60E85 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		80A8645322F056DF00ED92D1 /* Products */ = {
+		800DA1D82632572000D60E85 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				80A8645222F056DF00ED92D1 /* Swif-T-Score.app */,
-				80A8646922F056E000ED92D1 /* Swif-T-ScoreTests.xctest */,
-				80A8647422F056E000ED92D1 /* Swif-T-ScoreUITests.xctest */,
+				800DA1D72632572000D60E85 /* Swif-T-Score.app */,
+				800DA1EE2632572200D60E85 /* Swif-T-ScoreTests.xctest */,
+				800DA1F92632572200D60E85 /* Swif-T-ScoreUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		80A8645422F056DF00ED92D1 /* Swif-T-Score */ = {
+		800DA1D92632572000D60E85 /* Swif-T-Score */ = {
 			isa = PBXGroup;
 			children = (
-				80A8645522F056DF00ED92D1 /* AppDelegate.swift */,
-				80A8645722F056DF00ED92D1 /* ViewController.swift */,
-				80A8645922F056DF00ED92D1 /* Document.swift */,
-				80A8645E22F056E000ED92D1 /* Assets.xcassets */,
-				80A8646022F056E000ED92D1 /* Main.storyboard */,
-				80A8646322F056E000ED92D1 /* Info.plist */,
-				80A8646422F056E000ED92D1 /* Swif_T_Score.entitlements */,
-				80A8645B22F056DF00ED92D1 /* Document.xcdatamodeld */,
+				800DA1DA2632572000D60E85 /* Swif_T_ScoreApp.swift */,
+				800DA1DC2632572000D60E85 /* ContentView.swift */,
+				800DA1DE2632572100D60E85 /* Assets.xcassets */,
+				800DA1E32632572200D60E85 /* Persistence.swift */,
+				800DA1E82632572200D60E85 /* Info.plist */,
+				800DA1E92632572200D60E85 /* Swif_T_Score.entitlements */,
+				800DA1E52632572200D60E85 /* Swif_T_Score.xcdatamodeld */,
+				800DA1E02632572200D60E85 /* Preview Content */,
 			);
 			path = "Swif-T-Score";
 			sourceTree = "<group>";
 		};
-		80A8646C22F056E000ED92D1 /* Swif-T-ScoreTests */ = {
+		800DA1E02632572200D60E85 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				80A8646D22F056E000ED92D1 /* Swif_T_ScoreTests.swift */,
-				80A8646F22F056E000ED92D1 /* Info.plist */,
+				800DA1E12632572200D60E85 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		800DA1F12632572200D60E85 /* Swif-T-ScoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				800DA1F22632572200D60E85 /* Swif_T_ScoreTests.swift */,
+				800DA1F42632572200D60E85 /* Info.plist */,
 			);
 			path = "Swif-T-ScoreTests";
 			sourceTree = "<group>";
 		};
-		80A8647722F056E000ED92D1 /* Swif-T-ScoreUITests */ = {
+		800DA1FC2632572200D60E85 /* Swif-T-ScoreUITests */ = {
 			isa = PBXGroup;
 			children = (
-				80A8647822F056E000ED92D1 /* Swif_T_ScoreUITests.swift */,
-				80A8647A22F056E000ED92D1 /* Info.plist */,
+				800DA1FD2632572200D60E85 /* Swif_T_ScoreUITests.swift */,
+				800DA1FF2632572200D60E85 /* Info.plist */,
 			);
 			path = "Swif-T-ScoreUITests";
 			sourceTree = "<group>";
@@ -133,13 +141,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		80A8645122F056DF00ED92D1 /* Swif-T-Score */ = {
+		800DA1D62632572000D60E85 /* Swif-T-Score */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80A8647D22F056E000ED92D1 /* Build configuration list for PBXNativeTarget "Swif-T-Score" */;
+			buildConfigurationList = 800DA2022632572200D60E85 /* Build configuration list for PBXNativeTarget "Swif-T-Score" */;
 			buildPhases = (
-				80A8644E22F056DF00ED92D1 /* Sources */,
-				80A8644F22F056DF00ED92D1 /* Frameworks */,
-				80A8645022F056DF00ED92D1 /* Resources */,
+				800DA1D32632572000D60E85 /* Sources */,
+				800DA1D42632572000D60E85 /* Frameworks */,
+				800DA1D52632572000D60E85 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -147,69 +155,68 @@
 			);
 			name = "Swif-T-Score";
 			productName = "Swif-T-Score";
-			productReference = 80A8645222F056DF00ED92D1 /* Swif-T-Score.app */;
+			productReference = 800DA1D72632572000D60E85 /* Swif-T-Score.app */;
 			productType = "com.apple.product-type.application";
 		};
-		80A8646822F056E000ED92D1 /* Swif-T-ScoreTests */ = {
+		800DA1ED2632572200D60E85 /* Swif-T-ScoreTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80A8648022F056E000ED92D1 /* Build configuration list for PBXNativeTarget "Swif-T-ScoreTests" */;
+			buildConfigurationList = 800DA2052632572200D60E85 /* Build configuration list for PBXNativeTarget "Swif-T-ScoreTests" */;
 			buildPhases = (
-				80A8646522F056E000ED92D1 /* Sources */,
-				80A8646622F056E000ED92D1 /* Frameworks */,
-				80A8646722F056E000ED92D1 /* Resources */,
+				800DA1EA2632572200D60E85 /* Sources */,
+				800DA1EB2632572200D60E85 /* Frameworks */,
+				800DA1EC2632572200D60E85 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				80A8646B22F056E000ED92D1 /* PBXTargetDependency */,
+				800DA1F02632572200D60E85 /* PBXTargetDependency */,
 			);
 			name = "Swif-T-ScoreTests";
 			productName = "Swif-T-ScoreTests";
-			productReference = 80A8646922F056E000ED92D1 /* Swif-T-ScoreTests.xctest */;
+			productReference = 800DA1EE2632572200D60E85 /* Swif-T-ScoreTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		80A8647322F056E000ED92D1 /* Swif-T-ScoreUITests */ = {
+		800DA1F82632572200D60E85 /* Swif-T-ScoreUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80A8648322F056E000ED92D1 /* Build configuration list for PBXNativeTarget "Swif-T-ScoreUITests" */;
+			buildConfigurationList = 800DA2082632572200D60E85 /* Build configuration list for PBXNativeTarget "Swif-T-ScoreUITests" */;
 			buildPhases = (
-				80A8647022F056E000ED92D1 /* Sources */,
-				80A8647122F056E000ED92D1 /* Frameworks */,
-				80A8647222F056E000ED92D1 /* Resources */,
+				800DA1F52632572200D60E85 /* Sources */,
+				800DA1F62632572200D60E85 /* Frameworks */,
+				800DA1F72632572200D60E85 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				80A8647622F056E000ED92D1 /* PBXTargetDependency */,
+				800DA1FB2632572200D60E85 /* PBXTargetDependency */,
 			);
 			name = "Swif-T-ScoreUITests";
 			productName = "Swif-T-ScoreUITests";
-			productReference = 80A8647422F056E000ED92D1 /* Swif-T-ScoreUITests.xctest */;
+			productReference = 800DA1F92632572200D60E85 /* Swif-T-ScoreUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		80A8644A22F056DF00ED92D1 /* Project object */ = {
+		800DA1CF2632572000D60E85 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1030;
-				LastUpgradeCheck = 1030;
-				ORGANIZATIONNAME = "Steven Brown";
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					80A8645122F056DF00ED92D1 = {
-						CreatedOnToolsVersion = 10.3;
+					800DA1D62632572000D60E85 = {
+						CreatedOnToolsVersion = 12.4;
 					};
-					80A8646822F056E000ED92D1 = {
-						CreatedOnToolsVersion = 10.3;
-						TestTargetID = 80A8645122F056DF00ED92D1;
+					800DA1ED2632572200D60E85 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 800DA1D62632572000D60E85;
 					};
-					80A8647322F056E000ED92D1 = {
-						CreatedOnToolsVersion = 10.3;
-						TestTargetID = 80A8645122F056DF00ED92D1;
+					800DA1F82632572200D60E85 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 800DA1D62632572000D60E85;
 					};
 				};
 			};
-			buildConfigurationList = 80A8644D22F056DF00ED92D1 /* Build configuration list for PBXProject "Swif-T-Score" */;
+			buildConfigurationList = 800DA1D22632572000D60E85 /* Build configuration list for PBXProject "Swif-T-Score" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,36 +224,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 80A8644922F056DF00ED92D1;
-			productRefGroup = 80A8645322F056DF00ED92D1 /* Products */;
+			mainGroup = 800DA1CE2632572000D60E85;
+			productRefGroup = 800DA1D82632572000D60E85 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				80A8645122F056DF00ED92D1 /* Swif-T-Score */,
-				80A8646822F056E000ED92D1 /* Swif-T-ScoreTests */,
-				80A8647322F056E000ED92D1 /* Swif-T-ScoreUITests */,
+				800DA1D62632572000D60E85 /* Swif-T-Score */,
+				800DA1ED2632572200D60E85 /* Swif-T-ScoreTests */,
+				800DA1F82632572200D60E85 /* Swif-T-ScoreUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		80A8645022F056DF00ED92D1 /* Resources */ = {
+		800DA1D52632572000D60E85 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80A8645F22F056E000ED92D1 /* Assets.xcassets in Resources */,
-				80A8646222F056E000ED92D1 /* Main.storyboard in Resources */,
+				800DA1E22632572200D60E85 /* Preview Assets.xcassets in Resources */,
+				800DA1DF2632572100D60E85 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80A8646722F056E000ED92D1 /* Resources */ = {
+		800DA1EC2632572200D60E85 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80A8647222F056E000ED92D1 /* Resources */ = {
+		800DA1F72632572200D60E85 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,61 +263,50 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		80A8644E22F056DF00ED92D1 /* Sources */ = {
+		800DA1D32632572000D60E85 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80A8645D22F056DF00ED92D1 /* Document.xcdatamodeld in Sources */,
-				80A8645822F056DF00ED92D1 /* ViewController.swift in Sources */,
-				80A8645622F056DF00ED92D1 /* AppDelegate.swift in Sources */,
-				80A8645A22F056DF00ED92D1 /* Document.swift in Sources */,
+				800DA1E72632572200D60E85 /* Swif_T_Score.xcdatamodeld in Sources */,
+				800DA1E42632572200D60E85 /* Persistence.swift in Sources */,
+				800DA1DD2632572000D60E85 /* ContentView.swift in Sources */,
+				800DA1DB2632572000D60E85 /* Swif_T_ScoreApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80A8646522F056E000ED92D1 /* Sources */ = {
+		800DA1EA2632572200D60E85 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80A8646E22F056E000ED92D1 /* Swif_T_ScoreTests.swift in Sources */,
+				800DA1F32632572200D60E85 /* Swif_T_ScoreTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80A8647022F056E000ED92D1 /* Sources */ = {
+		800DA1F52632572200D60E85 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80A8647922F056E000ED92D1 /* Swif_T_ScoreUITests.swift in Sources */,
+				800DA1FE2632572200D60E85 /* Swif_T_ScoreUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		80A8646B22F056E000ED92D1 /* PBXTargetDependency */ = {
+		800DA1F02632572200D60E85 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 80A8645122F056DF00ED92D1 /* Swif-T-Score */;
-			targetProxy = 80A8646A22F056E000ED92D1 /* PBXContainerItemProxy */;
+			target = 800DA1D62632572000D60E85 /* Swif-T-Score */;
+			targetProxy = 800DA1EF2632572200D60E85 /* PBXContainerItemProxy */;
 		};
-		80A8647622F056E000ED92D1 /* PBXTargetDependency */ = {
+		800DA1FB2632572200D60E85 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 80A8645122F056DF00ED92D1 /* Swif-T-Score */;
-			targetProxy = 80A8647522F056E000ED92D1 /* PBXContainerItemProxy */;
+			target = 800DA1D62632572000D60E85 /* Swif-T-Score */;
+			targetProxy = 800DA1FA2632572200D60E85 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		80A8646022F056E000ED92D1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				80A8646122F056E000ED92D1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		80A8647B22F056E000ED92D1 /* Debug */ = {
+		800DA2002632572200D60E85 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -336,13 +332,13 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -361,7 +357,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -371,7 +367,7 @@
 			};
 			name = Debug;
 		};
-		80A8647C22F056E000ED92D1 /* Release */ = {
+		800DA2012632572200D60E85 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -397,13 +393,13 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -416,7 +412,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -425,45 +421,55 @@
 			};
 			name = Release;
 		};
-		80A8647E22F056E000ED92D1 /* Debug */ = {
+		800DA2032632572200D60E85 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Swif-T-Score/Swif_T_Score.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Swif-T-Score/Preview Content\"";
 				DEVELOPMENT_TEAM = 845Z64R8BT;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Swif-T-Score/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hazhapard.Swif-T-Score";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		80A8647F22F056E000ED92D1 /* Release */ = {
+		800DA2042632572200D60E85 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Swif-T-Score/Swif_T_Score.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Swif-T-Score/Preview Content\"";
 				DEVELOPMENT_TEAM = 845Z64R8BT;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Swif-T-Score/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hazhapard.Swif-T-Score";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		80A8648122F056E000ED92D1 /* Debug */ = {
+		800DA2062632572200D60E85 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -477,6 +483,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hazhapard.Swif-T-ScoreTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -484,7 +491,7 @@
 			};
 			name = Debug;
 		};
-		80A8648222F056E000ED92D1 /* Release */ = {
+		800DA2072632572200D60E85 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -498,6 +505,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hazhapard.Swif-T-ScoreTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -505,7 +513,7 @@
 			};
 			name = Release;
 		};
-		80A8648422F056E000ED92D1 /* Debug */ = {
+		800DA2092632572200D60E85 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -525,7 +533,7 @@
 			};
 			name = Debug;
 		};
-		80A8648522F056E000ED92D1 /* Release */ = {
+		800DA20A2632572200D60E85 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -548,38 +556,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		80A8644D22F056DF00ED92D1 /* Build configuration list for PBXProject "Swif-T-Score" */ = {
+		800DA1D22632572000D60E85 /* Build configuration list for PBXProject "Swif-T-Score" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				80A8647B22F056E000ED92D1 /* Debug */,
-				80A8647C22F056E000ED92D1 /* Release */,
+				800DA2002632572200D60E85 /* Debug */,
+				800DA2012632572200D60E85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80A8647D22F056E000ED92D1 /* Build configuration list for PBXNativeTarget "Swif-T-Score" */ = {
+		800DA2022632572200D60E85 /* Build configuration list for PBXNativeTarget "Swif-T-Score" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				80A8647E22F056E000ED92D1 /* Debug */,
-				80A8647F22F056E000ED92D1 /* Release */,
+				800DA2032632572200D60E85 /* Debug */,
+				800DA2042632572200D60E85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80A8648022F056E000ED92D1 /* Build configuration list for PBXNativeTarget "Swif-T-ScoreTests" */ = {
+		800DA2052632572200D60E85 /* Build configuration list for PBXNativeTarget "Swif-T-ScoreTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				80A8648122F056E000ED92D1 /* Debug */,
-				80A8648222F056E000ED92D1 /* Release */,
+				800DA2062632572200D60E85 /* Debug */,
+				800DA2072632572200D60E85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80A8648322F056E000ED92D1 /* Build configuration list for PBXNativeTarget "Swif-T-ScoreUITests" */ = {
+		800DA2082632572200D60E85 /* Build configuration list for PBXNativeTarget "Swif-T-ScoreUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				80A8648422F056E000ED92D1 /* Debug */,
-				80A8648522F056E000ED92D1 /* Release */,
+				800DA2092632572200D60E85 /* Debug */,
+				800DA20A2632572200D60E85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -587,17 +595,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		80A8645B22F056DF00ED92D1 /* Document.xcdatamodeld */ = {
+		800DA1E52632572200D60E85 /* Swif_T_Score.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				80A8645C22F056DF00ED92D1 /* Document.xcdatamodel */,
+				800DA1E62632572200D60E85 /* Swif_T_Score.xcdatamodel */,
 			);
-			currentVersion = 80A8645C22F056DF00ED92D1 /* Document.xcdatamodel */;
-			path = Document.xcdatamodeld;
+			currentVersion = 800DA1E62632572200D60E85 /* Swif_T_Score.xcdatamodel */;
+			path = Swif_T_Score.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 80A8644A22F056DF00ED92D1 /* Project object */;
+	rootObject = 800DA1CF2632572000D60E85 /* Project object */;
 }
