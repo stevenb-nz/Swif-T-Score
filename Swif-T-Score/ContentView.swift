@@ -9,6 +9,7 @@ import SwiftUI
 import CoreData
 
 struct ContentView: View {
+    @State var filename = "Filename"
     @Environment(\.managedObjectContext) private var viewContext
 
     @FetchRequest(
@@ -20,6 +21,18 @@ struct ContentView: View {
     private var items: FetchedResults<Tournament>
 
     var body: some View {
+        HStack {
+            Text(filename)
+            Button("select File") {
+                let panel = NSOpenPanel()
+                panel.allowsMultipleSelection = false
+                panel.canChooseDirectories = false
+                if panel.runModal() == .OK {
+                    self.filename = panel.url?.lastPathComponent ?? "<none>"
+                }
+            }
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
         List {
             ForEach(items) { item in
                 Text("Item at \(item.endDate!, formatter: itemFormatter)")
