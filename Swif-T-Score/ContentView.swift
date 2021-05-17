@@ -9,7 +9,7 @@ import SwiftUI
 import CoreData
 
 struct ContentView: View {
-    @State var filename = "Filename"
+    @State var fileContents = ""
     @Environment(\.managedObjectContext) private var viewContext
 
     @FetchRequest(
@@ -22,13 +22,17 @@ struct ContentView: View {
 
     var body: some View {
         HStack {
-            Text(filename)
+            Text(fileContents)
             Button("select File") {
                 let panel = NSOpenPanel()
                 panel.allowsMultipleSelection = false
                 panel.canChooseDirectories = false
                 if panel.runModal() == .OK {
-                    self.filename = panel.url?.lastPathComponent ?? "<none>"
+                    if let url = panel.url?.standardizedFileURL {
+                        if let contents = try? String(contentsOf: url) {
+                            self.fileContents = contents
+                        }
+                    }
                 }
             }
         }
